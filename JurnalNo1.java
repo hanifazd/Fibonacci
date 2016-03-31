@@ -27,6 +27,7 @@ public class JurnalNo1 {
         Scanner s = new Scanner(System.in);
         System.out.println("Deret Fibonacci");
         System.out.print("Inputkan Bilangan : ");
+        System.out.print("ROLLBACK");
 	int n = s.nextInt();
 	for(int i=1;i<=n;i++)
             System.out.print(fibo(i) + " ");
